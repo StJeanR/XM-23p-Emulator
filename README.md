@@ -9,23 +9,38 @@ To use the emulator;
 When the file loads you will see the Main Menu, type the letter(s) of a instruction to run it;
 
 Main Menu
+
 l       -Load File (load a new file)
+
 mi      -View Instrucion Memory
+
 md      -View Data Memory
+
         format: m_ xxxx xxxx (_ is 'i' or 'd', x is the address to view)
+
 D       -Decode
+
 g       -go  (begin running the program)
+
 r       -change registers or memory  (opens debugger menu, where you can inspect or change memory)
+
 b       -New Break Address  (specify where to add a break to the program at an addres
+
 R       -Reset (load a new program to run)
+
 x       -Exit
 
 
 Debugger menu;
 
 rd      -Display Register
+
 rc      -Change Register Value
+
 m_      -Change Memory at Address in instruction (_i) or data (_d) memory
+
 b       -Set Break Address
+
 p       -Display PSW
+
 x       -Return  (back to main menu)
