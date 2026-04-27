@@ -15,7 +15,6 @@ l       -Load File (load a new file)
 mi      -View Instrucion Memory
 
 md      -View Data Memory
-
         format: m_ xxxx xxxx (_ is 'i' or 'd', x is the address to view)
 
 D       -Decode
