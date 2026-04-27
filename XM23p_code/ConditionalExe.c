@@ -80,7 +80,7 @@ void ConExe(unsigned int Cond, unsigned char Tval, unsigned char Fval) {
         break;
 
         case LE:
-            checkCon( PSW.bits.zero | PSW.bits.negative != PSW.bits.overflow);
+            checkCon( PSW.bits.zero | (PSW.bits.negative != PSW.bits.overflow));
         break;
         
         case TR:
